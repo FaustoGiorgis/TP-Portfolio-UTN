@@ -1,0 +1,54 @@
+
+body{
+    background-color: #E4E0E1;
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+
+
+#navbar{
+    background-color: #CBD2A4 !important;
+    z-index: 1000;
+}
+
+#skills{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.aptitudes{
+    background-color: #CBD2A4;
+}
+
+
+
+#fotoperfil{ 
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.tarjeta{
+    padding: 50px;
+    margin: 50px;
+    width: 500px;
+}
+
+@media (max-width: 768px){
+
+    p{
+        font-size: 15px;
+        color:blueviolet
+    }
+
+    #sobremi{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+}
